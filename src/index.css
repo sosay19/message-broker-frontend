@@ -1,0 +1,95 @@
+/* src/index.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.app-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.publish-message-form,
+.recent-messages,
+.subscription-management {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #4a90e2;
+}
+
+.form-group,
+.add-subscription {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #357abd;
+    }
+
+.subscription-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.subscription-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .subscription-item button {
+        background-color: #e94e77;
+    }
+
+        .subscription-item button:hover {
+            background-color: #d83c5d;
+        }
+
+.add-subscription input {
+    margin-right: 10px;
+}
